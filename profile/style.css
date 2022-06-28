@@ -1,0 +1,125 @@
+body {
+    background-color: #dddd;
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(40, 183, 136);
+    height: 50px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav li a {
+    display: block;
+    float: left;
+    padding: 16px 14px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav a:hover {
+    color: rgb(47, 217, 255);
+    text-decoration: underline;
+}
+
+/* ******hii********* */
+
+.hiii {
+    margin: 5px;
+    background-color: rgba(105, 7, 7, 0.56);
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 400px;
+    height: 550px;
+}
+
+img {
+    border-radius: 50%;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.hiii li {
+    line-height: 25px;
+    /* text-decoration: underline; */
+}
+
+.about {
+    margin: 6px;
+    padding: 5px;
+    background-color: white;
+    height: 300;
+    width: 600;
+    overflow: auto;
+}
+
+.recent {
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    width: auto;
+    overflow: auto;
+}
+
+.sm fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa-instagram {
+    background: #f10c3eb9;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    border-radius: 5px;
+  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
